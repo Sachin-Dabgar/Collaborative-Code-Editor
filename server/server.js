@@ -83,6 +83,10 @@ io.on("connection", (socket) => {
     });
 });
 
+app.get("/", async (req, res) => {
+    res.send("Welcome to collaborative editor");
+});
+
 const PORT = process.env.PORT || 5000; // Define the port on which the server will listen
 server.listen(PORT, () => {
     console.log(`listening on ${PORT}`); // Print a message indicating the server has started listening on the specified port

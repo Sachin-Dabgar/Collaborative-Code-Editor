@@ -1,0 +1,194 @@
+.homePageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ddd;
+    height: 100vh;
+}
+
+.formWrapper {
+    background: #181a25;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+footer h4 span {
+    color: #14d15d;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainLabel {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.inputBox {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background-color: #eee;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+    font-weight: bold;
+}
+
+.joinBtn {
+    background-color: #3b5746;
+    color: #fff;
+    width: 100px;
+    margin-left: auto;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+    background-color: #2b824c;
+}
+
+.createInfo {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.createNewBtn {
+    background-color: #2b824c;
+    outline: none;
+    margin-left: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 10px;
+}
+
+.createNewBtn:hover {
+    background-color: #2fa55c;
+}
+
+.mainWrap {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+}
+
+.aside {
+    background-color: #1c1e29;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.asideInner {
+    flex: 1;
+}
+
+.clientsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.username {
+    margin-top: 10px;
+}
+
+.horizontalLine {
+    width: 100%;
+    background: #696767;
+    height: 0.5px;
+}
+
+.leaveBtn {
+    margin-top: 20px;
+    color: white;
+    background: #916d2c;
+}
+
+.CodeMirror {
+    min-height: 45vh;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+
+#output {
+    width: 100%;
+    height: 45vh;
+    font-family: "Courier New", monospace;
+    background-color: black;
+    color: #0abd52;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    overflow-y: auto;
+    font-size: 18px;
+}
+
+/* Optional: Add additional styles to mimic a terminal appearance */
+#output::before {
+    content: "$ ";
+    color: #3b5746;
+}
+
+#output:focus {
+    outline: none;
+}
+
+/* run button */
+.runBtn {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.runBtn:hover {
+    background-color: #0056b3;
+}
+
+.runBtn:focus {
+    outline: none;
+}
+
+.btnAndHeading {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
